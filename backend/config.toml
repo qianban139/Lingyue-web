@@ -1,0 +1,102 @@
+# ======================================
+# 凌越智缆 - Streamlit 配置文件
+# ======================================
+
+[theme]
+# 主题颜色配置
+primaryColor = "#165DFF"
+backgroundColor = "#0A0F1F"
+secondaryBackgroundColor = "#0F172A"
+textColor = "#E2E8F0"
+font = "sans serif"
+
+[server]
+# 服务器配置
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200
+
+[browser]
+# 浏览器配置
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[runner]
+# 运行器配置
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+
+[global]
+# 全局配置
+developmentMode = false
+logLevel = "info"
+
+[client]
+# 客户端配置
+caching = true
+displayEnabled = true
+showErrorDetails = true
+
+# ======================================
+# 自定义配色体系
+# ======================================
+[colors]
+primary = "#165DFF"
+secondary = "#0F172A"
+tertiary = "#1E293B"
+success = "#00B42A"
+warning = "#FF7D00"
+danger = "#F53F3F"
+dark = "#0A0F1F"
+light = "#E2E8F0"
+electric = "#0099FF"
+ice = "#E0F7FF"
+gray_400 = "#94A3B8"
+gray_500 = "#64748B"
+gray_700 = "#334155"
+gray_800 = "#1E293B"
+
+# ======================================
+# 字体大小配置
+# ======================================
+[fonts]
+title_large = "28px"
+title_medium = "22px"
+title_small = "18px"
+body_large = "16px"
+body_medium = "14px"
+body_small = "13px"
+caption = "12px"
+label = "11px"
+
+# ======================================
+# 间距配置
+# ======================================
+[spacing]
+xs = "4px"
+sm = "8px"
+md = "16px"
+lg = "24px"
+xl = "32px"
+xxl = "48px"
+
+# ======================================
+# 圆角配置
+# ======================================
+[border_radius]
+small = "4px"
+medium = "8px"
+large = "12px"
+full = "9999px"
+
+# ======================================
+# 阴影配置
+# ======================================
+[shadows]
+card = "0 4px 20px rgba(0, 0, 0, 0.3)"
+modal = "0 10px 40px rgba(0, 0, 0, 0.4)"
+dropdown = "0 4px 12px rgba(0, 0, 0, 0.3)"
